@@ -1,6 +1,6 @@
 {
   "name": "digiasset-hdwallet",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "BIP32 & BIP44 Hierarchical Deterministic Wallet.",
   "main": "src/hdwallet.js",
   "dependencies": {
