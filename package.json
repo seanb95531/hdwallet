@@ -1,6 +1,6 @@
 {
-  "name": "hdwallet",
-  "version": "0.7.3",
+  "name": "digiasset-hdwallet",
+  "version": "0.8.0",
   "description": "BIP32 & BIP44 Hierarchical Deterministic Wallet.",
   "main": "src/hdwallet.js",
   "dependencies": {
@@ -8,7 +8,7 @@
     "bigi": "^1.4.1",
     "bip38": "1.4.0",
     "bip39": "^2.2.0",
-    "bitcoinjs-lib": "~1.5.8",
+    "bitcoinjs-lib": "git://github.com/DigiByte-Core/bitcoinjs-lib.git#2d5fb18fbb4e785bee6cef1b28906987ea5cb505",
     "blockexplorer-rpc": "0.0.4",
     "coinkey": "^1.4.0",
     "coinstring": "^2.3.0",
@@ -32,15 +32,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Colored-Coins/hdwallet.git"
+    "url": "https://github.com/DigiByte-Core/digiasset-hdwallet.git"
   },
   "keywords": [
     "hdwallet",
     "bip32",
     "bip44",
     "bitcoin",
-    "colored",
-    "coins"
+    "digiassets",
+    "digibyte"
   ],
   "contributors": [
     {
@@ -58,7 +58,7 @@
   ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Colored-Coins/hdwallet/issues"
+    "url": "https://github.com/DigiByte-Core/digiasset-hdwallet/issues"
   },
-  "homepage": "https://github.com/Colored-Coins/hdwallet"
+  "homepage": "https://github.com/DigiByte-Core/digiasset-hdwallet"
 }
